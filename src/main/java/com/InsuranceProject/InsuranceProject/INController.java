@@ -18,4 +18,10 @@ public class INController
 	{
 		return "added post agent";
 	}
+    
+    @PostMapping
+	public String addedUI()
+	{
+		return "added UI GRAPHICS";
+	}
 }
